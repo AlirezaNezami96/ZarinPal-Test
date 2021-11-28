@@ -1,0 +1,24 @@
+query Repositories {
+    user(login: "JakeWharton") {
+        repositories(first: 10){
+            nodes{
+                name
+                description
+                openGraphImageUrl
+                forkCount
+                viewerHasStarred
+                stargazerCount
+                updatedAt
+                id
+                primaryLanguage{
+                    color
+                    name
+                }
+                licenseInfo{
+                    name
+                }
+
+            }
+        }
+    }
+}

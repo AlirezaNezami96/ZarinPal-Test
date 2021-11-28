@@ -1,0 +1,38 @@
+query Profile {
+    user(login: "JakeWharton") {
+        followers {
+            totalCount
+        }
+        following {
+            totalCount
+        }
+        starredRepositories {
+            totalCount
+        }
+        repositories {
+            totalCount
+        }
+        viewerIsFollowing
+        viewerCanSponsor
+        bio
+        email
+        login
+        avatarUrl
+        name
+        company
+        location
+        twitterUsername
+        websiteUrl
+        contributionsCollection {
+            contributionCalendar {
+                totalContributions
+            }
+        }
+        organizations(first: 10) {
+            nodes {
+                name
+                avatarUrl
+            }
+        }
+    }
+}

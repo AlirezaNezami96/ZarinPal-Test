@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ZarinPal Test</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="unfollow">UnFollow</string>
+    <string name="follow">Follow</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="repositories">Repositories</string>
+    <string name="stars">Stars</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="organizations">Organizations</string>
+    <string name="star">Star</string>
+    <string name="unstar">Unstar</string>
+    <string name="dialog_ok">ok</string>
+    <string name="no_internet">No Internet</string>
+    <string name="check_network_try_again">Please check your connection status and try again</string>
+    <string name="dialog_retry">Retry</string>
+</resources>

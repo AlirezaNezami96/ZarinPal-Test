@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.saviway.zarinpaltestproject.presentation.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/profileToRepositories"
+            app:destination="@id/repositoriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/repositoriesFragment"
+        android:name="com.saviway.zarinpaltestproject.presentation.ui.repo.RepositoriesFragment"
+        android:label="RepositoriesFragment" >
+
+    </fragment>
+</navigation>
