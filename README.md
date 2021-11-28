@@ -18,3 +18,5 @@ Glide (For loading images)
 Room database (for local caching and offline-first approach)
 
 Gson (for converting data classes)
+
+** Used a button instead of tab layout to navigate between fragments, TabLayout had no challenge with Navigation component **
